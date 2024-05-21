@@ -1,3 +1,5 @@
+SHELL = /bin/bash
+
 EXAMPLE_FLAGS = -I./examples -O0 -g3
 EXAMPLE_MODFLAGS = $(EXAMPLE_FLAGS) -fportcosmo -DUSING_PLUGIN=1\
 				   -include examples/tmpconst.h

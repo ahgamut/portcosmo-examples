@@ -37,7 +37,7 @@ static const struct toyroom r1 = {
 
 static __attribute__((constructor)) void myctor() {
   printf("v1 is %d\n", v1);
-  printf("t0.id = %d, t0.value = %d\n", t1.id, t1.value);
+  printf("t0.id = %d, t0.value = %d\n", t0.id, t0.value);
   printf("t1.id = %d, t1.value = %d\n", t1.id, t1.value);
   for (int i = 0; i < 5; ++i) {
     printf("ta[%d].id = %d, ta[%d].value = %d\n", i, ta[i].id, i, ta[i].value);
